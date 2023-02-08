@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = "<b>🧤Helo {}, I'm <a href=https://telegram.me/{}>{}</a> &amp; I Can Provide You Any Movies &amp; Series</b> 😇"
+    START_TXT = "<b>🧤Hᴇʟʟᴏ {}, I'ᴍ <a href=https://telegram.me/{}>{}</a> &amp; I Cᴀɴ Pʀᴏᴠɪᴅᴇ Yᴏᴜ Aɴʏ Mᴏᴠɪᴇs &amp; Sᴇʀɪᴇs</b> 😇"
 
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
@@ -120,9 +120,9 @@ Nᴀᴍᴇ - {}"""
 
     MVE_NT_FND = """<b><i>⚠ No Results, Please Follow Request Tips !!</i></b> \n <b><i>♀ Request Tips › [Click Here](https://t.me/TVSeriesCW/1378)</i></b>"""
 
-    TOP_ALRT_MSG = """Cʜᴇᴄᴋɪɴɢ Fᴏʀ Mᴏᴠɪᴇ Iɴ 1 Million Dᴀᴛᴀʙᴀsᴇ..."""
+    TOP_ALRT_MSG = """Cʜᴇᴄᴋɪɴɢ Fᴏʀ Mᴏᴠɪᴇ Iɴ 2 Mɪʟʟɪᴏɴ Dᴀᴛᴀʙᴀsᴇ..."""
 
-    MELCOW_ENG = """<b><i>🔆 Hey {}, Welcome To {} \n\nYou Can Request Any Movies, Web-Series, Anime, K-Dramas, Animation Here....</i></b>"""
+    MELCOW_ENG = """<b><i>🔆 Hᴇʏ {}, Wᴇʟᴄᴏᴍᴇ Tᴏ {} \n\nYᴏᴜ Cᴀɴ Rᴇǫᴜᴇsᴛ Aɴʏ Mᴏᴠɪᴇs, Wᴇʙ-Sᴇʀɪᴇs, Aɴɪᴍᴇ, K-Dʀᴀᴍᴀ, Aɴɪᴍᴀᴛɪᴏɴ Hᴇʀᴇ....</i></b>"""
 
     OWNER_INFO = """
 <b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
@@ -159,16 +159,16 @@ Owner Will Update The Movie Within 24Hour"""
 """
 
     NORSLTS = """
-★ #Auto_Request ★
+★ #Aᴜᴛᴏ_Rᴇǫᴜᴇsᴛ ★
 
-♦️ <b>User ID</b> : `{}`
-♦️ <b>Requested By : {}</b>
-🔆 <b>Request</b> : 🎗️`{}`🎗️ """
+♦️ <b>Usᴇʀ_ID</b> : `{}`
+♦️ <b>Rᴇǫᴜᴇsᴛᴇᴅ Bʏ : {}</b>
+🔆 <b>Rᴇǫᴜᴇsᴛ</b> : 🎗️`{}`🎗️ """
 
     CAPTION = """
-🎗<b>[{file_name}](https://t.me/+3cfeesNk_cg3MGQ9)</b>🎗 \n\n🔆 <i><b>Movies Group » [@HeavenOfMovies](https://t.me/+_HgfqNy7N4owNTI1)</i></b> \n🔆 <b><i>Series Group » [@HeavenOfSeries](https://t.me/+UbT__2jSGfgzMGM1)</b></i>"""
+🎗<b>[{file_name}](https://t.me/+3cfeesNk_cg3MGQ9)</b>🎗 \n\n🔆 <i><b>Mᴏᴠɪᴇs Gʀᴏᴜᴘ » [@HeavenOfMovies࿐•](https://t.me/+_HgfqNy7N4owNTI1)</i></b> \n🔆 <b><i>Sᴇʀɪᴇs Gʀᴏᴜᴘ » [@HeavenOfSeries࿐•](https://t.me/+UbT__2jSGfgzMGM1)</b></i>"""
 
-    IMDB_TEMPLATE_TXT = """<i><b>🎗️ {title} {year} \n━━━━━━━━━━━━━━━━━ \n🎭 Genre › {genres} \n⭐ Rating › {rating} \n♦️ Story › {plot}\n•────────────────• \n🔆彡[ @TVSeriesCW ]彡🔆</b> </i>"""
+    IMDB_TEMPLATE_TXT = """<i><b>🎗️ {title} {year} \n━━━━━━━━━━━━━━━━ \n🎭 Gᴇɴʀᴇ » {genres} \n⭐ Rᴀᴛɪɴɢ » {rating}/10 \n╭─────── • ◆ • ───────╮\n•  🔆 彡 @TVSeriesCW 彡  🔆 •\n╰─────── • ◆ • ───────╯</b> </i>"""
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
