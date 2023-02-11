@@ -61,10 +61,10 @@ async def save_group(bot, message):
                                                  caption=(script.MELCOW_ENG.format(u.mention, message.chat.title)),
                                                  reply_markup=InlineKeyboardMarkup(
                                                                          [[
-                                                                           InlineKeyboardButton("🎗️Our Channels", url="t.me/TVSeriesCW/2103"),
-                                                                           InlineKeyboardButton("Request Format🎗️", url="t.me/TVSeriesCW/1378")
+                                                                           InlineKeyboardButton("🎗️Oᴜʀ Cʜᴀɴɴᴇʟs", url="t.me/TVSeriesCW/2103"),
+                                                                           InlineKeyboardButton("Rᴇǫᴜᴇsᴛ Fᴏʀᴍᴀᴛ🎗️", url="t.me/TVSeriesCW/1378")
                                                                         ],[
-                                                                           InlineKeyboardButton("🔆 VIP & Premium Membership 🔆", url="t.me/MrperfectOffcial/39")
+                                                                           InlineKeyboardButton("🔆 Vɪᴘ & Pʀᴇᴍɪᴜᴍ Mᴇᴍʙᴇʀsʜɪᴘ 🔆", url="t.me/MrperfectOffcial/39")
                                                                          ]]
                                                  ),
                                                  parse_mode=enums.ParseMode.HTML
