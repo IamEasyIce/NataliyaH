@@ -24,14 +24,14 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('⚡MOVIΞS GᏒOUᎮ', url=f'https://t.me/+ZmoLctpXTo8yNjg9'),
-                    InlineKeyboardButton('SΞᏒIΞS GᏒOUᎮ⚡', url=f'https://t.me/+68nCNDklgoZlODI1')
+                    InlineKeyboardButton('⚡Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=f'https://t.me/+ZmoLctpXTo8yNjg9'),
+                    InlineKeyboardButton('Sᴇʀɪᴇs Gʀᴏᴜᴘ⚡', url=f'https://t.me/+68nCNDklgoZlODI1')
                 ],[
-                    InlineKeyboardButton('〄 DC', url=f'https://t.me/Arrowverse24Hour/2179'),
-                    InlineKeyboardButton('⍟ MCU', url=f'https://t.me/MCU_4K'),
-                    InlineKeyboardButton('VIᎮ SΞΛᏒCH ☌', switch_inline_query_current_chat='')
+                    InlineKeyboardButton('〄 DC', url=f'https://t.me/Arrowverse24Hour'),
+                    InlineKeyboardButton('⍟ MCU', url=f'https://t.me/+5PhM9DHUi_djMDU1'),
+                    InlineKeyboardButton('Vɪᴘ Sᴇᴀʀᴄʜ ☌', switch_inline_query_current_chat='')
                 ],[
-                    InlineKeyboardButton('🔥 JOIИ UᎮDΛTΞS CHΛИИΞL 🔥', url=CHNL_LNK)
+                    InlineKeyboardButton('♦️ Oᴜʀ Aʟʟ Cʜᴀɴɴᴇʟs ♦️', url='https://t.me/TVSeriesCW/2103')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup)
@@ -51,8 +51,8 @@ async def start(client, message):
                     InlineKeyboardButton('⚡MOVIΞS GᏒOUᎮ', url=f'https://t.me/+ZmoLctpXTo8yNjg9'),
                     InlineKeyboardButton('SΞᏒIΞS GᏒOUᎮ⚡', url=f'https://t.me/+68nCNDklgoZlODI1')
                 ],[
-                    InlineKeyboardButton('〄 DC', url=f'https://t.me/Arrowverse24Hour/2179'),
-                    InlineKeyboardButton('⍟ MCU', url=f'https://t.me/MCU_4K'),
+                    InlineKeyboardButton('〄 DC', url=f'https://t.me/Arrowverse24Hour'),
+                    InlineKeyboardButton('⍟ MCU', url=f'https://t.me/+5PhM9DHUi_djMDU1'),
                     InlineKeyboardButton('VIᎮ SΞΛᏒCH ☌', switch_inline_query_current_chat='')
                 ],[
                     InlineKeyboardButton('🔥 JOIИ UᎮDΛTΞS CHΛИИΞL 🔥', url=CHNL_LNK)
@@ -88,7 +88,7 @@ async def start(client, message):
                 btn.append([InlineKeyboardButton("↻ Tʀʏ Aɢᴀɪɴ", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**Please Join Our Update Channel🎗 \n Then Tap On Try Again ⚡ \n You'll Get Your File 🔆**",
+            text="**Pʟᴇᴀsᴇ Jᴏɪɴ Oᴜʀ Mᴀɪɴ Cʜᴀɴɴᴇʟ 🎗 \nTʜᴇɴ Tᴀᴘ Oɴ Tʀʏ AGᴀɪɴ ⚡ \nYᴏᴜ'ʟʟ Gᴇᴛ Yᴏᴜʀ Fɪʟᴇ 🔆**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
             )
@@ -100,8 +100,8 @@ async def start(client, message):
                     InlineKeyboardButton('⚡MOVIΞS GᏒOUᎮ', url=f'https://t.me/+ZmoLctpXTo8yNjg9'),
                     InlineKeyboardButton('SΞᏒIΞS GᏒOUᎮ⚡', url=f'https://t.me/+68nCNDklgoZlODI1')
                 ],[
-                    InlineKeyboardButton('〄 DC', url=f'https://t.me/Arrowverse24Hour/2179'),
-                    InlineKeyboardButton('⍟ MCU', url=f'https://t.me/MCU_4K'),
+                    InlineKeyboardButton('〄 DC', url=f'https://t.me/Arrowverse24Hour'),
+                    InlineKeyboardButton('⍟ MCU', url=f'https://t.me/+5PhM9DHUi_djMDU1'),
                     InlineKeyboardButton('VIᎮ SΞΛᏒCH ☌', switch_inline_query_current_chat='')
                 ],[
                     InlineKeyboardButton('🔥 JOIИ UᎮDΛTΞS CHΛИИΞL 🔥', url=CHNL_LNK)
@@ -244,7 +244,7 @@ async def start(client, message):
         is_valid = await check_token(client, userid, token)
         if is_valid == True:
             await message.reply_text(
-                text=f"<b>🎗️ Hᴇʏ {message.from_user.mention}, Yᴏᴜ Aʀᴇ Sᴜᴄᴄᴇssғᴜʟʟʏ Vᴇʀɪғɪᴇᴅ🎗️\nNᴏᴡ Yᴏᴜ Hᴀᴠᴇ Uɴʟɪᴍɪᴛᴇᴅ Vɪᴘ Aᴄᴄᴇss Oғ Nᴀᴛᴀʟɪʏᴀ 🔆</b>",
+                text=f"<b>🎗️ Hᴇʏ {message.from_user.mention}, Yᴏᴜ Aʀᴇ Sᴜᴄᴄᴇssғᴜʟʟʏ Vᴇʀɪғɪᴇᴅ 🎗️\nNᴏᴡ Yᴏᴜ Hᴀᴠᴇ Uɴʟɪᴍɪᴛᴇᴅ Vɪᴘ Aᴄᴄᴇss Oғ Pʀɪʏᴀɴᴋᴀ 🔆</b>",
                 protect_content=True
             )
             await verify_user(client, userid, token)
@@ -261,9 +261,13 @@ async def start(client, message):
             if not await check_verification(client, message.from_user.id) and VERIFY == True:
                 btn = [[
                     InlineKeyboardButton("♦️ Cʟɪᴄᴋ Hᴇʀᴇ Tᴏ Vᴇʀɪғʏ ♦️", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
-                ]]
+                ],[
+                    InlineKeyboardButton('‼️ Hᴏᴡ Tᴏ Vᴇʀɪғʏ ‼️', url=f'https://t.me/MrperfectOffcial/418')
+                ],[
+                    InlineKeyboardButton('🔆 Vɪᴘ Mᴇᴍʙᴇʀsʜɪᴘ 🔆', url=f'https://t.me/MrperfectOffcial/39')
+                      ]]
                 await message.reply_text(
-                    text="<b>🔆 Yᴏᴜ Aʀᴇ Nᴏᴛ Vᴇʀɪғɪᴇᴅ 🤦🏻‍♂️\n🔆 Kɪɴᴅʟʏ Vᴇʀɪғʏ Tᴏ Gᴇᴛ Pʀᴇᴍɪᴜᴍ Aᴄᴄᴇss\n\n <i>🎗️Hᴏᴡ Tᴏ Oᴘᴇɴ Lɪɴᴋ? › [Cʟɪᴄᴋ Hᴇʀᴇ🎗️](https://t.me/MrperfectOffcial/130)</i></b>",
+                    text="<b>🔆 Yᴏᴜ Aʀᴇ Nᴏᴛ Vᴇʀɪғɪᴇᴅ 🤦🏻‍♂️\n🔆 Kɪɴᴅʟʏ Vᴇʀɪғʏ Tᴏ Gᴇᴛ Vɪᴘ Aᴄᴄᴇss</b>",
                     protect_content=True,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
@@ -313,9 +317,13 @@ async def start(client, message):
     if not await check_verification(client, message.from_user.id) and VERIFY == True:
         btn = [[
             InlineKeyboardButton("♦️ Cʟɪᴄᴋ Hᴇʀᴇ Tᴏ Vᴇʀɪғʏ ♦️", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
-        ]]
+        ],[
+            InlineKeyboardButton('‼️ Hᴏᴡ Tᴏ Vᴇʀɪғʏ ‼️', url=f'https://t.me/MrperfectOffcial/418')
+        ],[
+            InlineKeyboardButton('🔆 Vɪᴘ Mᴇᴍʙᴇʀsʜɪᴘ 🔆', url=f'https://t.me/MrperfectOffcial/39')
+              ]]
         await message.reply_text(
-            text="<b>🔆 Yᴏᴜ Aʀᴇ Nᴏᴛ Vᴇʀɪғɪᴇᴅ 🤦🏻‍♂️\n🔆 Kɪɴᴅʟʏ Vᴇʀɪғʏ Tᴏ Gᴇᴛ Pʀᴇᴍɪᴜᴍ Aᴄᴄᴇss\n\n <i>🎗️Hᴏᴡ Tᴏ Oᴘᴇɴ Lɪɴᴋ? › [Click Here🎗️](https://t.me/MrperfectOffcial/130)</i></b>",
+            text="<b>🔆 Yᴏᴜ Aʀᴇ Nᴏᴛ Vᴇʀɪғɪᴇᴅ 🤦🏻‍♂️\n🔆 Kɪɴᴅʟʏ Vᴇʀɪғʏ Tᴏ Gᴇᴛ Vɪᴘ Aᴄᴄᴇss</b>",
             protect_content=True,
             reply_markup=InlineKeyboardMarkup(btn)
         )
