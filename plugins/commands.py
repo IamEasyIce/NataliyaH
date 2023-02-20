@@ -244,7 +244,9 @@ async def start(client, message):
         is_valid = await check_token(client, userid, token)
         if is_valid == True:
             await message.reply_text(
-                text=f"<b>🎗️ Hᴇʏ {message.from_user.mention}, Yᴏᴜ Aʀᴇ Sᴜᴄᴄᴇssғᴜʟʟʏ Vᴇʀɪғɪᴇᴅ 🎗️\nNᴏᴡ Yᴏᴜ Hᴀᴠᴇ Uɴʟɪᴍɪᴛᴇᴅ Vɪᴘ Aᴄᴄᴇss Oғ Pʀɪʏᴀɴᴋᴀ 🔆</b>",
+
+
+                text=f"<b>🎗️ Hᴇʏ {message.from_user.mention}, Yᴏᴜ Aʀᴇ Sᴜᴄᴄᴇssғᴜʟʟʏ Vᴇʀɪғɪᴇᴅ 🎗️\nNᴏᴡ Yᴏᴜ Hᴀᴠᴇ Uɴʟɪᴍɪᴛᴇᴅ Vɪᴘ Aᴄᴄᴇss Oғ Nᴀᴛᴀʟɪʏᴀ 🔆</b>",
                 protect_content=True
             )
             await verify_user(client, userid, token)
